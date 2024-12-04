@@ -1,0 +1,8 @@
+[project]
+name = "aoc"
+version = "2024.0"
+description = "Attempting to learn Python through Advent of Code"
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
