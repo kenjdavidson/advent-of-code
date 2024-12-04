@@ -36,4 +36,8 @@ class Solution:
 
 
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("You must provide a filename as the first argument")
+        exit(1)
+
     Solution().run(sys.argv[1])
