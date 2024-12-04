@@ -12,7 +12,12 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements.txt"
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	// Apply environment variables as needed
+	"remoteEnv": {
+		"PYTHONPATH": "/workspaces/advent-of-code"
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
