@@ -18,3 +18,4 @@ The primary issue with Python was getting the imports to work, for this I found 
 
 - Day 1 - Went pretty smoothly
 - Day 2 - Had to resort to iterative/slow solution for part two, will circle back to figure out a better way.
+- Day 3 - Regex fun!
