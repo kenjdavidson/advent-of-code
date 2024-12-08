@@ -20,3 +20,4 @@ The primary issue with Python was getting the imports to work, for this I found 
 - Day 2 - Had to resort to iterative/slow solution for part two, will circle back to figure out a better way.
 - Day 3 - Regex fun!
 - Day 4 - Complete.
+- Day 5 - Can't even think about part 2 at this point :(

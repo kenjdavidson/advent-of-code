@@ -10,10 +10,14 @@ class BaseSolution:
         pass
 
     @abstractmethod
-    def solve(self, filename: str):
+    def solve(self):
         pass
 
-    def solve(self, filename: str):
+    @abstractmethod
+    def get_path(self):
+        pass
+
+    def run(self, filename: str):
         """
         Read filename and call solve
         """
@@ -24,5 +28,6 @@ class BaseSolution:
         """
         Read the file calling through fill_from_file to populate the required data structure
         """
-        filepath = f"{os.path.dirname(__file__)}/{filename}"
+        filepath = f"{self.get_path()}/{filename}"
+        print(f"Attempting to read input file {filepath}")
         fh.read_file(filepath, self.fill_from_file)
