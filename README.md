@@ -22,3 +22,4 @@ The primary issue with Python was getting the imports to work, for this I found 
 - Day 4 - Complete.
 - Day 5 - Can't even think about part 2 at this point :(
 - Day 6 - Part 2 not correct (too low), even with successful sample.  Need to come back to this after and try to get it working.
+- Day 8 - Matrix and permutation management... funzi!
